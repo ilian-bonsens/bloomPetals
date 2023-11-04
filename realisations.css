@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+.marge {
+    margin-top: 30px;
+}
+
+header {
+    background-color: rgb(255, 115, 0);
+    height: 25px;
+    padding: 25px;
+}
+
+header li, a {
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    color: #000000;
+}
+
+#tabs {
+    width: 10%;
+}
+
+#searchbar {
+    float: right;
+    display: block;
+    margin-right: 30px;
+}
+
+input {
+    width: 130px;
+    border-radius: 30px;
+}
+
+ul, li {
+    color: rgb(255, 115, 0);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 115, 0);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: rgb(255, 115, 0);
+    height: 25px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+footer li, a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+}
+
+#mentions {
+    width: 23%;
+    margin-left: 10%;
+}
+
+.conteneur {
+    display: grid;
+    gap: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 250px;  
+    padding: 10px;
+  }
+  
+.image img {
+    width: 100%;
+    height: 100%; 
+    box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.conteneur div img {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+    -webkit-filter: blur(0);
+	filter: blur(0);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.conteneur div:hover img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+    -webkit-filter: blur(2px);
+	filter: blur(2px);
+}

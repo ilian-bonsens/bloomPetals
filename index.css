@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: rgb(255, 115, 0);
+    height: 25px;
+    padding: 25px;
+}
+
+header li, a {
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    color: #000000;
+}
+
+#tabs {
+    width: 10%;
+}
+
+#searchbar {
+    float: right;
+    display: block;
+    margin-right: 30px;
+}
+
+input {
+    width: 130px;
+    border-radius: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 115, 0);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+h2 {
+    margin-left: 27px;
+    color: rgb(255, 115, 0);
+}
+
+.images {
+    display: flex;
+    justify-content: space-around;
+    object-fit: contain;
+    height: 200px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.conteneur {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item {
+    width: 27%;
+    margin-bottom: 40px;
+    color: rgb(255, 115, 0);
+}
+
+footer {
+    background-color: rgb(255, 115, 0);
+    height: 30px;
+    padding: 10px;
+}
+
+footer li, a {
+    list-style-type: none;
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
+}
+
+#mentions {
+    width: 23%;
+    margin-left: 10%;
+}
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.alinea {
+    margin-left: 27px;
+    color: rgb(255, 115, 0);
+}

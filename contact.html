@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="Entreprise" content="Présentation de l'équipe BloomPetals">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact - formulaire</title>
+</head>
+
+<header>
+    <div>
+        <ul>
+            <li id="tabs"><a href="index.html">Home</a></li>
+            <li id="tabs"><a href="Entreprise.html">Entreprise</a></li>
+            <li id="tabs"><a href="réalisations.html">Réalisations</a></li>
+            <li id="tabs"><a href="contact.html">Contact</a></li>
+            <li id="searchbar"><input class="input1" type="text" name="rechercher"></li>
+        </ul>
+    </div>
+</header>
+
+<body>
+    <div>
+        <h1>Formulaire de contact</h1>
+        <p class="alinea">Que ce soit pour une simple question, un devis ou même une commande ; n'hésitez pas à nous contacter en remplissant le formulaire ci-dessous !</p>
+    </div>
+    <div class="conteneur">
+        <form action="/action_page.php">
+          <label for="fname">Genre</label>
+        <br>
+          <select class="liste" name="Genre">
+            <option class="liste" value="Défaut"></option>
+            <option class="liste" value="Femme">Femme</option>
+            <option class="liste" value="Homme">Homme</option>
+          </select>
+        <br>
+
+          <label for="fname">Nom</label>
+          <input type="text" id="fname" name="firstname" placeholder="Votre nom">
+
+          <label for="fname">Prénom</label>
+          <input type="text" id="fname" name="firstname" placeholder="Votre prénom">
+      
+          <label for="sujet">Sujet</label>
+          <input type="text" id="sujet" name="sujet" placeholder="L'objet de votre message">
+      
+          <label for="emailAddress">Email</label>
+          <input id="emailAddress" type="email" name="email" placeholder="Votre email">
+      
+      
+          <label for="subject">Message</label>
+          <textarea id="subject" name="subject" placeholder="Votre message" style="height:200px"></textarea>
+      
+          <input type="submit" value="Envoyer">
+        </form>
+      </div>
+</body>
+
+<footer>
+    <div>
+        <ul>
+            <li id="mentions"><a href="#">Mentions légales</a></li>
+            <li id="mentions"><a href="#">C.G.U</a></li>
+            <li id="mentions"><a href="#">C.G.V</a></li>
+        </ul>
+    </div>
+</footer>
+
+</html>
